@@ -1,0 +1,86 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	background-image: url("../images/background.jpg");
+}
+
+#wrapper {
+	width: 960px;
+	height: 95%;
+	box-sizing: border-box;
+	margin: 2.5% auto;
+	background-color: #b0bec5;
+	opacity: 0.9;
+}
+
+#sub-wrapper {
+	position: relative;
+	top: 15%;
+}
+
+button {
+	display: block;
+	width: 50%;
+	height: 20%;
+	margin: 0 auto;
+	font-size: 42px;
+	color: black;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+}
+
+img {
+	height: 200px;
+}
+
+h1 {
+	padding-top: 2.5%;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 5.5em;
+	color: black;
+}
+
+h2 {
+	margin-bottom: 25px;
+	font-size: 35px;
+	color: black;
+	/*font-family: 'MedievalSharp', cursive;*/
+	font-family: 'Medula One', cursive;
+}
+
+h3 {
+	margin-bottom: 10px;
+	font-size: 25px;
+	color: black;
+	/*font-family: 'MedievalSharp', cursive;*/
+	font-family: 'Medula One', cursive;
+}
+
+#start {
+	margin-top: 10%;
+	background: grey;
+	border: 2px solid black;
+	font-family: 'MedievalSharp', cursive;
+}
+
+button:hover {
+	background: grey;
+	border: 2px solid black;
+}
+
+.answer-button {
+	font-family: 'Medula One', cursive;
+}
+
+#question {
+	font-family: 'MedievalSharp', cursive;
+}
+
+#start-over {
+	font-family: 'Medula One', cursive;
+}
